@@ -32,7 +32,7 @@ cmake .
 %make_install
 
 %files
-%attr(0755, root, root) "/usr/local/lib64/irssi/modules/libfish.so"
+%attr(0755, root, root) "/usr/local/%{_lib}/irssi/modules/libfish.so"
 %exclude /usr/local/share/doc/FiSH-irssi/README
 %changelog
 
