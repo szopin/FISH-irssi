@@ -15,7 +15,14 @@ BuildRequires:   irssi-devel
 
 %description
 FiSH encryption module for Irssi
-  
+
+%prep
+
+%setup -q -n %{name}-%{version}/FISH-irssi
+
+%build
+cmake .
+
 %files
 %attr(0755, root, root) "/usr/local/lib/irssi/modules/libfish.so"
 
