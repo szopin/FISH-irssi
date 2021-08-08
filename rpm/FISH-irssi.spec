@@ -12,6 +12,11 @@ Packager:        szopin
 Provides:      libfish.so()
 Requires:      irssi  
 BuildRequires:   irssi-devel cmake
+BuildRequires:  openssl-devel
+BuildRequires:	gcc
+BuildRequires:	glib2-devel
+BuildRequires:	ncurses-devel
+BuildRequires:	pkgconfig
 
 %description
 FiSH encryption module for Irssi
