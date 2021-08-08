@@ -17,7 +17,7 @@ BuildRequires:   irssi-devel
 FiSH encryption module for Irssi
 
 %prep
-
+ls -la %{name}-%{version}
 %setup -q -n %{name}-%{version}/irssi-fish
 
 %build
