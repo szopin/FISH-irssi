@@ -5,7 +5,7 @@ License:       MIT
 Group:         Productivity/Networking/IRC
 Summary:       FiSH for Irssi
 Distribution:  SailfishOS
-
+Source:        FISH-irssi-%{version}.tar.xz
 URL:           https://github.com/falsovsky/FiSH-irssi
 Packager:        szopin
 
