@@ -11,9 +11,11 @@ Packager:        szopin
 
 Provides:      libfish.so()
 Requires:      irssi  
+BildRequires:   irssi-devel
 
 %description
 FiSH encryption module for Irssi
+  
 %files
 %attr(0755, root, root) "/usr/local/lib/irssi/modules/libfish.so"
 
