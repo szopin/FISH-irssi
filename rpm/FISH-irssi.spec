@@ -32,7 +32,7 @@ FiSH encryption module for Irssi
 %make_install
 
 %files
-%attr(0755, root, root) "/usr/%{_lib}/irssi/modules/libfish.so"
+%attr(0755, root, root) "%{_libdir}/irssi/modules/libfish.so"
 %exclude /usr/share/doc/FiSH-irssi/README
 %changelog
 
