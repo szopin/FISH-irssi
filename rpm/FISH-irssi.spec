@@ -25,7 +25,7 @@ FiSH encryption module for Irssi
 %setup -q -n %{name}-%{version}/FiSH-irssi
 
 %build
-cmake .
+%cmake .
 %{__make} %{?_smp_mflags}
 
 %install
