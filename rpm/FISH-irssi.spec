@@ -33,6 +33,6 @@ FiSH encryption module for Irssi
 
 %files
 %attr(0755, root, root) "/usr/%{_lib}/irssi/modules/libfish.so"
-%exclude /usr/local/share/doc/FiSH-irssi/README
+%exclude /usr/share/doc/FiSH-irssi/README
 %changelog
 
