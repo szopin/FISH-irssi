@@ -18,10 +18,14 @@ FiSH encryption module for Irssi
 
 %prep
 
-%setup -q -n %{name}-%{version}/FISH-irssi
+%setup -q -n %{name}-%{version}/irssi-fish
 
 %build
 cmake .
+%{__make} %{?_smp_mflags}
+
+%install
+%make_install
 
 %files
 %attr(0755, root, root) "/usr/local/lib/irssi/modules/libfish.so"
