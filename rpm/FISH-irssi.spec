@@ -33,6 +33,6 @@ cmake .
 
 %files
 %attr(0755, root, root) "/usr/local/lib/irssi/modules/libfish.so"
-
+%exclude /usr/local/share/doc/FiSH-irssi/README
 %changelog
 
